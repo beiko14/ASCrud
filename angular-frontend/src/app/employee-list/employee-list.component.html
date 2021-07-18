@@ -16,6 +16,7 @@
             <td> {{ employee.emailId }} </td>
             <td>
                 <button (click)="updateEmployee(employee.id)" class="btn btn-info">Update</button>
+                <button (click)="deleteEmployee(employee.id)" class="btn btn-danger" id="delete-button">Delete</button>
             </td>
         </tr>
     </tbody>
